@@ -19,6 +19,7 @@ public class Ball : MonoBehaviour
     {
         _rigidbody.velocity = _rigidbody.velocity.normalized * _speed;
         _velocity = _rigidbody.velocity;
+
     }
 
 	private void OnCollisionEnter(Collision collision)
